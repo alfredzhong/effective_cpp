@@ -15,7 +15,8 @@ int main() {
 	cout<<"b's id :"<<b.id<<endl;
 
 	/* the following two should be random numbers b/c
-	 * "member" were not initialized
+	 * "member" were not initialized, this is just to 
+	 * test if the compiler allows "member[id]"
 	 */
 	cout<<"b's member[17] = :"<<b.member[17]<<endl;
 	cout<<"b's member[12] = :"<<b.member[12]<<endl;
