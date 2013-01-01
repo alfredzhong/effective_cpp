@@ -36,4 +36,19 @@ class apple {
 
 
 
+/* reference return type trick */
+template <class T>
+inline T& imax(T& a, T& b) {
+	return a>b?a:b;
+}
+
+/* to replace macro with parameters */
+// #define imax(a,b) ( (a)>(b)?a:b )
+
+
+
+
+
+
+
 
