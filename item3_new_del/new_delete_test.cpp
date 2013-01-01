@@ -21,3 +21,4 @@ int main(){
 	delete[] stringArray2;
 	return 0;
 }
+
