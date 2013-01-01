@@ -17,6 +17,8 @@ const uint64_t pita = 1024*tera;
 
 using namespace std;
 
+
+//handler function has to be no return and no input
 void noMemory() {
 	cerr<<"Not Enough Memory"<<endl;
 	abort();
@@ -24,6 +26,7 @@ void noMemory() {
 
 
 int main() {
+	//set new handler
 	set_new_handler(noMemory);
 	int *pBigArray = new int[tera];
 	delete [] pBigArray;
