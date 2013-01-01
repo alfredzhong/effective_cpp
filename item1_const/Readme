@@ -1,0 +1,6 @@
+Effective C++ item1 sample code
+
+Why: use const instead of #define, let the compiler report error
+
+The example shows declaration of a const variable, it is OK to include the header in multiple file without "multiple declaration error", however, a NONE const varialbe declared in a header WILL cause "multiple declaration error"
+
