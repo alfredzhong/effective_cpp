@@ -23,6 +23,15 @@ class apple {
 	public:
 		static const int id = 100;
 		void hi();
+		int member[id];
+
+		// emum hack, in case the compiler doesn't
+		// accept "number[id]" b/c it treat "id" as
+		// a variable 
+		/*
+		emum {id=5};
+		int member[id];
+		*/
 };
 
 

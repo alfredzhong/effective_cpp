@@ -14,6 +14,12 @@ int main() {
 	b.hi();
 	cout<<"b's id :"<<b.id<<endl;
 
+	/* the following two should be random numbers b/c
+	 * "member" were not initialized
+	 */
+	cout<<"b's member[17] = :"<<b.member[17]<<endl;
+	cout<<"b's member[12] = :"<<b.member[12]<<endl;
+
 }
 
 
